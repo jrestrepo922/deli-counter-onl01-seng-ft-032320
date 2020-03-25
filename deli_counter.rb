@@ -22,6 +22,7 @@ katz_deli = []
   #puts line(customers)
   
 #part 2 
+katz_deli = []
 
   def take_a_number(line, new_customer_name)
     line.push(new_customer_name)
