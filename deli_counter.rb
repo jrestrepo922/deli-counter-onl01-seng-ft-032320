@@ -17,7 +17,7 @@ def line(customers)
   end 
 end 
 
-puts line(customer)
+puts line(customers)
 
 #"The line is currently: 1. Logan 2. Avi 3. Spencer"
 
