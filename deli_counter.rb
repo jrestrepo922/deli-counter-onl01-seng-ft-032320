@@ -34,4 +34,6 @@ katz_deli = []
   #"Welcome, Ada. You are number 1 in line."
   
 #part 3 
-  def
+  def now_serving
+    
+  end
