@@ -25,5 +25,9 @@ katz_deli = []
 
   def take_a_number(line, new_customer_name)
     line.push(new_customer_name)
+    puts 
     
   end 
+
+
+#"Welcome, Ada. You are number 1 in line."
