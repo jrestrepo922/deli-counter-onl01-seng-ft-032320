@@ -36,7 +36,8 @@ katz_deli = []
 #part 3 
   def now_serving(line)
     if line.size > 0  
-      puts "Currently serving #{line.unshift}."
+      puts "Currently serving #{line.first}."
+      line.unshift
     else
       puts "There is nobody waiting to be served!"
     end 
