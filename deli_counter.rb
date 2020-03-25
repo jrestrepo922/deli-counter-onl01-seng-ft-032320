@@ -1,6 +1,8 @@
 # Write your code here.
 katz_deli = []
 
+customers = ["Logan", "Avi", "Spence"]
+
 def line(customers)
   new_array = []
   if customers.size == 0 
@@ -15,4 +17,7 @@ def line(customers)
   end 
 end 
 
+puts line(customer)
+
 #"The line is currently: 1. Logan 2. Avi 3. Spencer"
+
