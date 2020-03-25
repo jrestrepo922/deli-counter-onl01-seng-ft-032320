@@ -34,6 +34,10 @@ katz_deli = []
   #"Welcome, Ada. You are number 1 in line."
   
 #part 3 
-  def now_serving
-    
+  def now_serving(line)
+    if line.size > 0  
+      puts 
+    end 
   end
+  
+  #"Currently serving Ada."
