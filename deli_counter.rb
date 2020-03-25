@@ -38,7 +38,7 @@ katz_deli = []
     if line.size > 0  
       puts "Currently serving #{line.unshift}."
     else
-      puts 
+      puts "There is nobody waiting to be served!"
     end 
   end
   
