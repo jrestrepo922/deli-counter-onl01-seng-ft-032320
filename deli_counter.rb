@@ -10,7 +10,7 @@ def line(customers)
       new_array.push(" #{index + 1}. #{customer}")
     end 
     intermidiate_string = new_array.join
-    final_string = intermidiate_string
+    final_string = "The line is currently:" + intermidiate_string
   end 
 end 
 
