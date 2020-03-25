@@ -2,11 +2,12 @@
 katz_deli = []
 
 def line(customers)
+  new_array = []
   if customers.size == 0 
     puts "The line is currently empty."
   else 
     customers.each_with_index do |customer, index| 
-      puts "you"
+      new_array.push(" #{index}.")
     end 
   end 
 end 
