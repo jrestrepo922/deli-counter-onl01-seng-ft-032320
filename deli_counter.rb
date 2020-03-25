@@ -29,6 +29,6 @@ katz_deli = []
     puts "Welcome, #{line.last}. You are number #{line.index(line.last)} in line."
   end 
   
-take_a_number(katz_deli, "Ada") 
+puts take_a_number(katz_deli, "Ada") 
 
 #"Welcome, Ada. You are number 1 in line."
