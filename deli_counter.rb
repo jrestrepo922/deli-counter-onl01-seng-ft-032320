@@ -11,7 +11,7 @@ def line(customers)
     customers.each_with_index do |customer, index| 
       new_array.push(" #{index + 1}. #{customer}")
     end
-    puts new_array.ispect
+    puts new_array.inspect
     intermidiate_string = new_array.join
     final_string = "The line is currently:" + intermidiate_string
   end 
