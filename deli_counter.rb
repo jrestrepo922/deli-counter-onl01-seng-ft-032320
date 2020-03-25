@@ -2,4 +2,5 @@
 katz_deli = []
 
 def line(customers)
-  if customers.
+  if customers.size == 0 
+    puts ""
