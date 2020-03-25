@@ -22,13 +22,16 @@ katz_deli = []
   #puts line(customers)
   
 #part 2 
-katz_deli = []
+  #katz_deli = []
 
   def take_a_number(line, new_customer_name)
     line.push(new_customer_name)
     puts "Welcome, #{line.last}. You are number #{line.index(line.last) + 1} in line."
   end 
   
-puts take_a_number(katz_deli, "Ada") 
+  #puts take_a_number(katz_deli, "Ada") 
 
-#"Welcome, Ada. You are number 1 in line."
+  #"Welcome, Ada. You are number 1 in line."
+  
+#part 3 
+  def
