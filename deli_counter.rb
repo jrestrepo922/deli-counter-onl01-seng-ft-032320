@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 
-customers = ["Logan", "Avi", "Spence"]
+#customers = ["Logan", "Avi", "Spencer"]
 
 def line(customers)
   new_array = []
@@ -11,13 +11,14 @@ def line(customers)
     customers.each_with_index do |customer, index| 
       new_array.push(" #{index + 1}. #{customer}")
     end
-    puts new_array.inspect
+    #puts new_array.inspect
     intermidiate_string = new_array.join
     final_string = "The line is currently:" + intermidiate_string
+    puts final_string
   end 
 end 
 
-puts line(customers)
+#puts line(customers)
 
-#"The line is currently: 1. Logan 2. Avi 3. Spencer"
+
 
