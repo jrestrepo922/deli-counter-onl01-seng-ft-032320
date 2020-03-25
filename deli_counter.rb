@@ -3,4 +3,10 @@ katz_deli = []
 
 def line(customers)
   if customers.size == 0 
-    puts ""
+    puts "The line is currently empty."
+  else 
+    customers.each_with_index do |customer, index| 
+      puts "you"
+    end 
+  end 
+end 
