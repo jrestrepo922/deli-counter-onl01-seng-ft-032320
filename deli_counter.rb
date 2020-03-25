@@ -7,8 +7,10 @@ def line(customers)
     puts "The line is currently empty."
   else 
     customers.each_with_index do |customer, index| 
-      new_array.push(" #{index}.")
+      new_array.push(" #{index + 1}. #{customer}")
     end 
+    intermidiate_string = new_array.join
+    final_string = intermidiate_string
   end 
 end 
 
