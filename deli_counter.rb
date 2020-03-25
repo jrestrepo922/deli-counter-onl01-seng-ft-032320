@@ -8,7 +8,8 @@ def line(customers)
   else 
     customers.each_with_index do |customer, index| 
       new_array.push(" #{index + 1}. #{customer}")
-    end 
+    end
+    puts new_array.ispect
     intermidiate_string = new_array.join
     final_string = "The line is currently:" + intermidiate_string
   end 
